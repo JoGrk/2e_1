@@ -7,6 +7,19 @@
     <title>pierwsza</title>
 </head>
 <body>
-    <h1>Pierwsza strona</h1>  
+    <h1 id="tytul" onclick="zmien()">Pierwsza strona</h1> 
+    
+    
+    <script>
+               
+        
+    
+        function zmien(){
+            let tytul = document.getElementById('tytul')
+            tytul.innerHTML = "Zmiana zmiana zmiana!"
+            tytul.style.color='red'
+        }
+
+    </script>
 </body>
 </html>
